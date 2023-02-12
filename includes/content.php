@@ -17,5 +17,4 @@
         <li>Node.js</li>
     </ul>
 </div>
-<div class="text">Gradient</div>
 </div>

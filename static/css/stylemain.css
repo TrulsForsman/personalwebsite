@@ -49,6 +49,19 @@ nav ul li a {
     padding-top: 10px;
     padding-left: 30px;
 }
+.text {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg,#EF1BF3 0%, #B82CED 10%, #A239CA 20%, #8A17B6 30%, #7F0BAB 40%, #5e0a7c 50%, #7F0BAB 60%, #8A17B6 70%, #A239CA 80%, #B82CED 90%, #EF1BF3 100% );
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 15s linear infinite;
+}
+@keyframes animate {
+    100%{
+        background-position: 400%;
+    }
+}
 #wA {
     font-size: 50px;
     color: #EF1BF3;
@@ -70,16 +83,37 @@ nav ul li a {
 .first_section .Bullets .Bullet-second {
     color: #B82CED;
 }
-.text {
-    font-family: 'Inter', sans-serif;
-    background: linear-gradient(135deg,#EF1BF3 0%, #B82CED 10%, #A239CA 20%, #8A17B6 30%, #7F0BAB 40%, #5e0a7c 50%, #7F0BAB 60%, #8A17B6 70%, #A239CA 80%, #B82CED 90%, #EF1BF3 100% );
-    background-size: 400%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: animate 15s linear infinite;
+.content {
+    width: 50%;
+    margin: 300px auto;
 }
-@keyframes animate {
-    100%{
-        background-position: 400%;
-    }
+.headerline {
+    display: flex;
+    flex-direction: row;
+} 
+.second_section .header {
+    color: #A239CA;
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+hr {
+    width: 65%;
+    margin: 33px auto 0 auto;
+    background-color: #A239CA;
+    border: none;
+    height: 5px;
+    
+}
+.second_section .txt {
+    color: #A239CA;
+    font-size: 30px;
+    font-weight: 550;
+    padding: 25px 0;
+}
+.second_sectionflex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 75%;
 }
