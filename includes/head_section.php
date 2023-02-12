@@ -8,4 +8,4 @@
     <link rel="stylesheet" href="static/css/reset.css">
     <link rel="stylesheet" href="static/css/stylemain.css">
     <link rel="shortcut icon" href="static/images/Vectorreallogo.svg">
-    <script src="../js/index.js" async></script>
+    <script src="../../personalwebsite/js/index.js" async></script>

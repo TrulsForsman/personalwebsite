@@ -15,7 +15,13 @@
     <p class="txt" id="txt3">On my journey, I have learned a lot. I have met and worked on several languages including Python, Java, C++, and Rust until I began making websites and fell in love with PHP and React.</p>
     <p class="txt" id="txt4">For me, coding is much more than typing letters that are transmitted to ones and zeroes. I feel like coding has helped me a lot in my life and made me develop as a person. </p>
     </div>
-</div>
+    </div>
+    <div class="headerline2">
+    <div class="third_section">
+        <p class="header">Curriculum vitae</p>
+        <hr />
+        </div>
+    </div>
     </div>
 </body>
 </html>
