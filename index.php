@@ -11,6 +11,9 @@
     </div>
     <?php require_once('includes/ssc.php') ?>
     <?php require_once('includes/cuvi.php') ?>
+    <?php require_once('includes/cc.php') ?>
+    <?php require_once('includes/footer.php') ?>
+    <?php require_once('includes/github.php') ?>
     </div>
 </body>
 </html>

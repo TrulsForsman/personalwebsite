@@ -97,7 +97,7 @@ nav ul li a {
     font-weight: 700;
     padding-bottom: 50px;
 }
-hr {
+hr .CUVIHR{
     width: 50%;
     margin: 33px auto 0 auto;
     background-color: #A239CA;
@@ -124,3 +124,22 @@ hr {
     display: flex;
     flex-direction: row;
 } 
+.DBTFL {
+    width: 80%;
+    background-color: #A239CA;
+    border: none;
+    height: 5px;
+    float: left;
+    left: 0px;
+}
+.DBTFT {
+    Color: #A239CA;
+}
+.DBTFR {
+    width: 80%;
+    background-color: #A239CA;
+    border: none;
+    height: 5px;
+    float: right;
+    right: 0px;
+}
